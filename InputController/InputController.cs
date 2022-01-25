@@ -5,7 +5,7 @@ using PetrovDA.Utils.Interface;
 
 namespace PetrovDA.Utils.InputController
 {
-    public class InputController
+    public class InputController : IMonoBehaviourUpdate
     {
         private Dictionary<int, AbstractScreenRegistrator> screenTouchReistratorsDictionary = new Dictionary<int, AbstractScreenRegistrator>();
         private AbstractAxisRegistrator axisDirectionRegistrator;
